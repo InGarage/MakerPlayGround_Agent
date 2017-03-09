@@ -1,0 +1,13 @@
+{
+    "lib": [
+        {
+            "name": "blabla"
+ 
+        },
+        {
+            "name": "blabla"
+   
+        }
+    ],
+    "board" : "uno"
+}
