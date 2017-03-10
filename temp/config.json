@@ -1,0 +1,7 @@
+{
+  "board": "uno", 
+  "lib": [
+    "MP_GeneralLed", 
+    "MP_Delay"
+  ]
+}
