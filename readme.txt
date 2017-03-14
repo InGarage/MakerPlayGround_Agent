@@ -1,0 +1,2 @@
+install platformIO
+install flask
