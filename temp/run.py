@@ -37,5 +37,5 @@ if __name__ == '__main__':
       subprocess.call(["mkdir",lib],shell=True,cwd=pathlibnew)
       subprocess.call(["COPY",pathlib+'\\'+lib+'.cpp',pathlibnew+'\\'+lib],shell=True,cwd=path+'\\'+name)
       subprocess.call(["COPY",pathlib+'\\'+lib+'.h',pathlibnew+'\\'+lib],shell=True,cwd=path+'\\'+name)
-    subprocess.call(["platformio", "run" ],shell=True,cwd=path+'\\'+name)
-      #subprocess.call(["platformio", "run" ,"--target", "upload"],shell=True,cwd=path+'\\'+name)
+    #subprocess.call(["platformio", "run" ],shell=True,cwd=path+'\\'+name)
+    subprocess.call(["platformio", "run" ,"--target", "upload"],shell=True,cwd=path+'\\'+name)
